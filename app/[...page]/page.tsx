@@ -10,7 +10,8 @@ interface PageProps {
   };
 }
 
-export default async function Page(props: PageProps) {
+
+export default async function Page(props: any) {
   const builderModelName = "page";
 
   const content = await builder
